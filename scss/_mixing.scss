@@ -1,0 +1,35 @@
+@mixin figcaption($size,$color) {
+    font-size: $size;
+    color: $color;
+    font-family:"Permanent marker", sans-serif;
+}
+.figcaption{
+    @include figcaption(1.5em,red );
+}
+
+@mixin p-lorem1($size,$color) {
+    font-size: $size;
+    color: $color;
+    font-family: "Montserrat", sans-serif;
+    border-style: double;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.p-lorem1{
+    @include p-lorem1(1.2em,#f5eded )
+}
+$paleta:(
+    'uno':#770909,
+    'dos': rgba(255, 0, 0, 0.719),
+    'tres': rgb(255, 0, 0),
+    'cuatro':#f5eded,
+    'cinco':#000000,
+    'seis':#922c2c,
+    'siete': linear-gradient(to top, black, red),
+
+);
+.botonera{
+    background-color: map-get($map:$paleta , $key:'dos' );
+}

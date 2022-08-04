@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap");
+.botonera .logo {
+  font-family: "Permanent marker", sans-serif;
+  font-size: 2rem;
+  color: #000000;
+}
+.botonera ul li a {
+  font-family: "Permanent marker", sans-serif;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  transform: translateX(-8%);
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  border: 1px solid black;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.body-1 {
+  background-image: url(../recursos/img/fondonegro.jpg);
+}
+
+h1,
+h2 {
+  font-family: "Permanent marker", sans-serif;
+  font-size: 2rem;
+  color: #770909;
+}
+
+h3 {
+  font-family: "Permanent marker", sans-serif;
+  font-size: 1.5rem;
+  color: #f5eded;
+}
+
+#selectorA p:first-letter {
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  padding: 4px;
+}
+
+.edit-form {
+  font-family: "Permanent marker", sans-serif;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.card {
+  background-color: #770909;
+}
+
+.footer {
+  background-color: rgba(255, 0, 0, 0.719);
+}
+.footer .logo {
+  font-family: "Permanent marker", sans-serif;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/*transforms*/
+.figure:hover {
+  color: #f5eded;
+  font-weight: 200ms ease;
+  transform: translateX(4px);
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+
+.button {
+  padding: 5px;
+  width: 100px;
+  background: linear-gradient(to top, black, red);
+  border: none;
+  font-family: "Permanent marker", sans-serif;
+  border-style: solid;
+}
+
+.pinchados, .bocetos {
+  color: #f5eded;
+  font-size: 2rem;
+}
+
+.bocetos {
+  color: #f5eded;
+}
+
+.figcaption {
+  font-size: 1.5em;
+  color: red;
+  font-family: "Permanent marker", sans-serif;
+}
+
+.p-lorem1 {
+  font-size: 1.2em;
+  color: #f5eded;
+  font-family: "Montserrat", sans-serif;
+  border-style: double;
+  padding: 20px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.botonera {
+  background-color: rgba(255, 0, 0, 0.719);
+}
+
+/*# sourceMappingURL=style.css.map */

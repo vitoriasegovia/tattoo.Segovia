@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.body-1{
+    background-image: url(../recursos/img/fondonegro.jpg);
+}
+
+h1,
+h2{font-family: $mainFont;
+    font-size: $textLg;
+    color: $mainColor;
+
+}
+h3{
+    font-family: $mainFont;
+    font-size: $textMd;
+    color:$color3;
+}
+
+#selectorA p:first-letter{
+    color: $color2;
+    font-size: $textLg;
+    padding: 4px;
+}
+.edit-form{
+    font-family: $mainFont;
+    font-size: $textSm;
+    color: $color4;
+}
+.card{
+    background-color: $mainColor;
+}
+
+
+.footer{
+    background-color: $color1;
+    .logo{
+        font-family: $mainFont;
+        font-size: $textLg;
+        color: $color4;
+    }
+}
+/*transforms*/
+.figure:hover{
+    color:$color3;
+    font-weight: 200ms ease;
+    transform: translateX(4px);
+    cursor: pointer;
+    transition:transform 200ms ease;
+}
+
+
+.button{
+    padding: 5px;
+    width: 100px;
+    background: $degrade;
+    border: none;
+    font-family: $mainFont;
+    border-style:solid;
+}
+.pinchados{
+    color: $color3;
+    font-size: $textLg;
+}
+.bocetos{
+    @extend .pinchados;
+    color:$color3;
+    
+}
